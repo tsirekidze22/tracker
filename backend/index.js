@@ -12,8 +12,10 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000", // local
-      "https://country-tracker-api.vercel.app/", // deployed
+      "https://country-tracker-api.vercel.app", // deployed
     ],
+    methods: ["POST", "GET"],
+    credentials: true,
   })
 );
 
