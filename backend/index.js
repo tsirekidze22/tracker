@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://tracker-iy3d.onrender.com", // deployed
+    origin: "https://countrytracker.vercel.app",
     methods: ["GET", "POST"],
     credentials: true,
   })
