@@ -14,6 +14,8 @@ app.use(
       "http://localhost:3000", // local
       "https://tracker-iy3d.onrender.com", // deployed
     ],
+    methods: ["GET", "POST"],
+    credentials: true,
   })
 );
 
