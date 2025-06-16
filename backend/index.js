@@ -10,9 +10,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: [
-      "https://tracker-iy3d.onrender.com", // deployed
-    ],
+    origin: "https://tracker-iy3d.onrender.com", // deployed
     methods: ["GET", "POST"],
     credentials: true,
   })
