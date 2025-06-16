@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://countrytracker.vercel.app",
+    origin: ["https://countrytracker.vercel.app"],
     methods: ["GET", "POST"],
     credentials: true,
   })
