@@ -12,7 +12,7 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
 
-  const API_URL = "https://country-tracker-api.vercel.app/";
+  const API_URL = "https://country-tracker-api.vercel.app";
 
   const fetchStats = async () => {
     try {
