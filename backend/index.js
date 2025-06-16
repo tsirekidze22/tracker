@@ -12,10 +12,8 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000", // local
-      "https://country-tracker-api.vercel.app", // deployed
+      "https://tracker-iy3d.onrender.com", // deployed
     ],
-    methods: ["POST", "GET"],
-    credentials: true,
   })
 );
 
